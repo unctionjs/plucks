@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
 import {test} from "tap"
 
-import plucks from "./source.js"
+import pluck from "./source"
 
 test(({same, end}) => {
   same(
