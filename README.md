@@ -1,11 +1,10 @@
 # @unction/plucks
 
-
 ![Tests][BADGE_TRAVIS]
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Array<KeyChainType> => FunctorType => Array<any>
+> Array<KeyChainType> => FunctorType => ArrayType
 
 Given keychain and records, return the values at the keychain for each record.
 
@@ -49,6 +48,5 @@ Which will return:
 ```
 
 [BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/plucks.svg?maxAge=2592000&style=flat-square
-
 [BADGE_STABILITY]: https://img.shields.io/badge/stability-strong-green.svg?maxAge=2592000&style=flat-square
 [BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/plucks.svg?maxAge=2592000&style=flat-square
