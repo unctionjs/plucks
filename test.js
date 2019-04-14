@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import plucks from "./index"
+import plucks from "./index";
 
 test("works", () => {
   expect(
@@ -8,7 +8,7 @@ test("works", () => {
         ["attributes", "name"],
         ["attributes", "age"],
         ["attributes", "friends"],
-        ["id"]
+        ["id"],
       ]
     )(
       [
@@ -33,7 +33,7 @@ test("works", () => {
   ).toEqual(
     [
       ["Kurtis", 29, undefined, "1"],
-      ["Chris", 29, undefined, "2"]
+      ["Chris", 29, undefined, "2"],
     ]
-  )
-})
+  );
+});
