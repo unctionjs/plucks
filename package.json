@@ -1,6 +1,6 @@
 {
   "name": "@unction/plucks",
-  "version": "10.2.0",
+  "version": "10.2.1",
   "description": "Given a set of keychains and a record it return a set of values",
   "keywords": [
     "unction",
